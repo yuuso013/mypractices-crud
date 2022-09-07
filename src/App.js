@@ -1,24 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import Header from "./Components/UI/Header"
+import QuintoPrimera from "./Components/UI/Screens/QuintoPrimera"
+import QuintoSegunda from "./Components/UI/Screens/QuintoSegunda"
+import QuintoTercera from "./Components/UI/Screens/QuintoTercera"
+import SextoPrimera from "./Components/UI/Screens/SextoPrimera"
+import SextoSegunda from "./Components/UI/Screens/SextoSegunda"
+import SextoTercera from "./Components/UI/Screens/SextoTercera"
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    return (
+      <>
+        <Header></Header>
+        <QuintoPrimera></QuintoPrimera>
+        <QuintoSegunda></QuintoSegunda>
+        <QuintoTercera></QuintoTercera>
+        <SextoPrimera></SextoPrimera>
+        <SextoSegunda></SextoSegunda>
+        <SextoTercera></SextoTercera>
+      </>
   );
 }
 
