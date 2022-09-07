@@ -98,12 +98,11 @@ class QuintoTercera extends React.Component {
   };
 
   render() {
-    
     return (
       <>
         <Container>
         <br />
-        <h1>Epet 20 | Quinto tercera</h1>
+        <h1>Epet 20 | Quinto tercera (5° 3)</h1>
         <br />
           <Button color="success" onClick={()=>this.mostrarModalInsertar()}>Crear</Button>
           <br />

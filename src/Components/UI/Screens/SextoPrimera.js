@@ -103,7 +103,7 @@ class SextoPrimera extends React.Component {
       <>
         <Container>
         <br />
-        <h1>Epet 20 | Sexto primera</h1>
+        <h1>Epet 20 | Sexto primera (6° 1)</h1>
         <br />
           <Button color="success" onClick={()=>this.mostrarModalInsertar()}>Crear</Button>
           <br />

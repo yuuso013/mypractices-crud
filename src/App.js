@@ -5,6 +5,7 @@ import QuintoTercera from "./Components/UI/Screens/QuintoTercera"
 import SextoPrimera from "./Components/UI/Screens/SextoPrimera"
 import SextoSegunda from "./Components/UI/Screens/SextoSegunda"
 import SextoTercera from "./Components/UI/Screens/SextoTercera"
+import './Components/UI/Styles/App.css'
 
 function App() {
     return (

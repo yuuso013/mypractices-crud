@@ -10,7 +10,7 @@ export const LoginButton = () => {
 
   return (
     <div className="App-header">
-      <h1>Si desea ingresar a "Mis Prácticas" para observar su lugar de pasantía, inicie sesión</h1>
+      <h1>Si desea ingresar a la página de administrador de "Mis Prácticas" para observar su lugar de pasantía, inicie sesión</h1>
       <button className="Button" onClick={() => loginWithRedirect()}>Iniciar sesión</button>
     </div>
   )  
