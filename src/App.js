@@ -1,4 +1,3 @@
-import Header from "./Components/UI/Header"
 import QuintoPrimera from "./Components/UI/Screens/QuintoPrimera"
 import QuintoSegunda from "./Components/UI/Screens/QuintoSegunda"
 import QuintoTercera from "./Components/UI/Screens/QuintoTercera"
@@ -10,7 +9,7 @@ import './Components/UI/Styles/App.css'
 function App() {
     return (
       <>
-        <Header></Header>
+
         <QuintoPrimera></QuintoPrimera>
         <QuintoSegunda></QuintoSegunda>
         <QuintoTercera></QuintoTercera>
