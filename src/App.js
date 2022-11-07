@@ -9,7 +9,6 @@ import './Components/UI/Styles/App.css'
 function App() {
     return (
       <>
-
         <QuintoPrimera></QuintoPrimera>
         <QuintoSegunda></QuintoSegunda>
         <QuintoTercera></QuintoTercera>
